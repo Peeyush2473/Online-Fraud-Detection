@@ -44,6 +44,17 @@ This is a Flask-based web application for detecting fraudulent transactions usin
 3. Use the frontend (e.g., `index.html`) to input transaction details and submit them to the `/predict` endpoint.
 4. The app will return a JSON response with the prediction result, confidence score, and processing time.
 
+## Screenshots
+Below are the screenshots of the website's interface:
+![Website Home Page](output_images/website.png)
+Transaction input form for entering details like amount and transaction type.
+
+![legitimate transcation](output_images/successful_transaction.png)
+Prediction result page showing fraud detection outcome and confidence score for Legitimate Transaction
+
+![fraud transcation](output_images/suspicious_transaction.png)
+Prediction result page showing fraud detection outcome and confidence score for Fraud Transaction
+
 ## Example Input
 Submit a POST request to `/predict` with the following form data:
 - `amount`: 1000.00
